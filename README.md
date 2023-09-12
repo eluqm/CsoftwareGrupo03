@@ -161,7 +161,7 @@ Texto.
 
 ### Diagrama entidad relación
 
-Texto.
+![DER](DER.JPG)
 
 ### Diagrama casos de uso
 
