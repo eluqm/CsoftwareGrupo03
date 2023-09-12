@@ -1,3 +1,4 @@
+![Logo-PA](Logo-PA.JPG)
 <h1 align="center">Plataforma Académica</h1>
 
 ## Contenido del proyecto:
