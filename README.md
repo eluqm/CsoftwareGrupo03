@@ -12,20 +12,24 @@
 
 ##Problemática
 
+Texto.
 
 ##Aplicaciones similares
 
+Texto.
 
 ##Propósito del proyecto
 
+Texto.
 
 ##Requisitos
 
+Texto.
 
 ###Requisitos funcionales:
 
+Texto.
 
----
 | **Nombre** | Base de datos de sesión |
 | :--- | :--- |
 | **Tipo** | Requisito |
@@ -58,7 +62,9 @@
 | **Descripción** | El usuario una vez iniciada la sesión tendrá la opción de cambiar su contraseña. |
 | **Salida** | Modificación de la contraseña |
 ---
+
 ####Apoderado
+
 ---
 | **Nombre** | Vista de calificaciones |
 | --- | --- |
@@ -132,8 +138,9 @@
 | **Descripción** | El profesor puede elegir entre vigesimal o cualitativo para las notas de los cursos. |
 | **Salida** | Ingreso de notas del estudiante |
 ---
+
 ###Requisitos no funcionales
----
+
 | **Nombre** | Tiempo de espera |
 | --- | --- |
 | **Tipo** | Requisito |
@@ -155,9 +162,17 @@
 
 ##Diagramas
 
+Texto.
+
 ###Diagrama entidad relación
+
+Texto.
 
 ###Diagrama casos de uso
 
+Texto.
+
 ###Diagrama de secuencia
+
+Texto.
 
