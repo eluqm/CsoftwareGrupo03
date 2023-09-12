@@ -1,7 +1,7 @@
 <h1 align="center">Plataforma Académica</h1>
 ##Contenido del proyecto:
 ---
--[Problemática]()
+-[Problemática](#Problemática)
 -[Aplicaciones similares]()
 -[Propósito del proyecto]()
 -[Requisitos]()
@@ -17,6 +17,7 @@
 ###Requisitos funcionales:
 ---
 | **Nombre** | Base de datos de sesión |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Alta |
 | **Entrada** | Datos del usuario |
