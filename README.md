@@ -161,7 +161,7 @@ Texto.
 
 ### Diagrama entidad relación
 
-![DER](DER.JPG)
+![DER]([DER.JPG](https://github.com/eluqm/CsoftwareGrupo03/blob/main/Im%C3%A1genes/DER.jpg)https://github.com/eluqm/CsoftwareGrupo03/blob/main/Im%C3%A1genes/DER.jpg)
 
 ### Diagrama casos de uso
 
