@@ -1,5 +1,7 @@
 <h1 align="center">Plataforma Académica</h1>
+
 ##Contenido del proyecto:
+
 ---
 -[Problemática](#Problemática)
 -[Aplicaciones similares]()
@@ -7,6 +9,7 @@
 -[Requisitos]()
 -[diagramas]()
 ---
+
 ##Problemática
 
 ##Aplicaciones similares
@@ -25,6 +28,7 @@
 | **Salida** | Registro de datos de usuario, asistencias y notas |
 ---
 | **Nombre** | Iniciar Sesión |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** | Datos del usuario |
@@ -32,6 +36,7 @@
 | **Salida** | Interfaz de la página web  |
 ---
 | **Nombre** | Vista para tipo de usuario |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** | Inicio de sesión |
@@ -39,6 +44,7 @@
 | **Salida** | validación de tipo de usuario y visualización de interfaz |
 ---
 | **Nombre** | Cambiar contraseña |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** | Cuenta existente |
@@ -48,6 +54,7 @@
 ####Apoderado
 ---
 | **Nombre** | Vista de calificaciones |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** | Cuenta existente |
@@ -55,6 +62,7 @@
 | **Salida** | Visualización de calificaciones en una tabla del estudiante |
 ---
 | **Nombre** | Vista de asistencias |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** | Cuenta existente |
@@ -62,6 +70,7 @@
 | **Salida** | Visualización de asistencia del estudiante |
 ---
 | **Nombre** | Vista de Notificaciones/Eventos |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** | Cuenta existente |
@@ -69,6 +78,7 @@
 | **Salida** | Visualización de eventos en una lista. |
 ---
 | **Nombre** | Ingresar notas |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** | Cuenta existente, Base de datos |
@@ -76,6 +86,7 @@
 | **Salida** | Visualización del ingreso de notas en una tabla |
 ---
 | **Nombre** | Ingresar notificaciones/eventos |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** | Texto o imagen por ahora |
@@ -83,6 +94,7 @@
 | **Salida** |  |
 ---
 | **Nombre** | Registrar asistencias |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** |  |
@@ -90,6 +102,7 @@
 | **Salida** |  |
 ---
 | **Nombre** | Filtro de las notas |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** |  |
@@ -97,6 +110,7 @@
 | **Salida** |  |
 ---
 | **Nombre** | Tipo de periodo |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** |  |
@@ -104,6 +118,7 @@
 | **Salida** |  |
 ---
 | **Nombre** | Sistema de calificación |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Entrada** | Filtro de año, sección y curso |
@@ -113,21 +128,26 @@
 ###Requisitos no funcionales
 ---
 | **Nombre** | Tiempo de espera |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Descripción** | Al momento de hacer clic en una opción de la página, el tiempo de espera debe ser mínimo. |
 ---
 | **Nombre** | Mensaje de errores |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Descripción** | El sistema debe proporcionar mensajes de errores al usuario final. |
 ---
 | **Nombre** | Diseño responsivo |
+| --- | --- |
 | **Tipo** | Requisito |
 | **Prioridad** | Media |
 | **Descripción** | La aplicación web debe poseer un diseño “Responsive” para garantizar la visualización. |
 ---
+
 ##Diagramas
+
 ###Diagrama entidad relación
 
 ###Diagrama casos de uso
