@@ -12,15 +12,22 @@
 
 ##Problemática
 
+
 ##Aplicaciones similares
+
 
 ##Propósito del proyecto
 
+
 ##Requisitos
+
+
 ###Requisitos funcionales:
+
+
 ---
 | **Nombre** | Base de datos de sesión |
-| --- | --- |
+| :--- | :--- |
 | **Tipo** | Requisito |
 | **Prioridad** | Alta |
 | **Entrada** | Datos del usuario |
