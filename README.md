@@ -25,7 +25,7 @@ Actualmente hay estudiantes que por falta de atención del padre/apoderado ya qu
 Texto.
 
 ## Requisitos
-
+Los requisitos funcionales y no funcionales del proyecto se encuentran detallados en el siguiente documento: [Requisitos del proyecto](https://drive.google.com/file/d/1j5xsyA21bkWk6gz__MowmHE6-j_Wsw8z/view?usp=sharing)
 ### Requisitos funcionales:
 
 | **Nombre** | Base de datos de sesión |
