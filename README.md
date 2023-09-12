@@ -22,9 +22,20 @@ Actualmente hay estudiantes que por falta de atención del padre/apoderado ya qu
 
 ## Propósito del proyecto
 
-Texto.
+Nuestro propósito es crear una plataforma web eficiente y fácil de usar con una interfaz minimalista el registro de notas y asistencias del estudiante para instituciones educativas. Nuestra meta principal es proporcionar a profesores, padre/apoderado y estudiantes una herramienta centralizada que simplifique el proceso de seguimiento del desempeño académico y la asistencia del estudiante. 
+
+## Características
+
+- Visualizacion de notas
+- Visualizacion de asistencias
+- Visualizacion de notificaciones/eventos
+
+- Ingreso de notas del estudiante
+- Ingreso de asistencia
+- Ingreso de notificación
 
 ## Requisitos
+
 Los requisitos funcionales y no funcionales del proyecto se encuentran detallados en el siguiente documento: [Requisitos del proyecto](https://drive.google.com/file/d/1j5xsyA21bkWk6gz__MowmHE6-j_Wsw8z/view?usp=sharing)
 
 ## Diagramas
