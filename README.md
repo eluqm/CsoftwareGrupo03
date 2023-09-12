@@ -160,8 +160,6 @@ Texto.
 
 ## Diagramas
 
-Texto.
-
 ### Diagrama entidad relación
 
 Texto.
