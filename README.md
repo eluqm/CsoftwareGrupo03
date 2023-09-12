@@ -2,31 +2,29 @@
 
 ## Contenido del proyecto:
 
----
 -[Problemática](#Problemática)
 -[Aplicaciones similares]()
 -[Propósito del proyecto]()
 -[Requisitos]()
 -[diagramas]()
----
 
-##Problemática
-
-Texto.
-
-##Aplicaciones similares
+## Problemática
 
 Texto.
 
-##Propósito del proyecto
+## Aplicaciones similares
 
 Texto.
 
-##Requisitos
+## Propósito del proyecto
 
 Texto.
 
-###Requisitos funcionales:
+## Requisitos
+
+Texto.
+
+### Requisitos funcionales:
 
 Texto.
 
@@ -63,7 +61,7 @@ Texto.
 | **Salida** | Modificación de la contraseña |
 ---
 
-####Apoderado
+#### Apoderado
 
 ---
 | **Nombre** | Vista de calificaciones |
@@ -139,7 +137,7 @@ Texto.
 | **Salida** | Ingreso de notas del estudiante |
 ---
 
-###Requisitos no funcionales
+### Requisitos no funcionales
 
 | **Nombre** | Tiempo de espera |
 | --- | --- |
@@ -160,19 +158,19 @@ Texto.
 | **Descripción** | La aplicación web debe poseer un diseño “Responsive” para garantizar la visualización. |
 ---
 
-##Diagramas
+## Diagramas
 
 Texto.
 
-###Diagrama entidad relación
+### Diagrama entidad relación
 
 Texto.
 
-###Diagrama casos de uso
+### Diagrama casos de uso
 
 Texto.
 
-###Diagrama de secuencia
+### Diagrama de secuencia
 
 Texto.
 
