@@ -1,6 +1,6 @@
 <h1 align="center">Plataforma Académica</h1>
 
-##Contenido del proyecto:
+## Contenido del proyecto:
 
 ---
 -[Problemática](#Problemática)
