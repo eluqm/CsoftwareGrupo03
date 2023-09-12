@@ -3,10 +3,10 @@
 ## Contenido del proyecto:
 
 - [Problemática](#Problemática)
-- [Aplicaciones similares]()
-- [Propósito del proyecto]()
-- [Requisitos]()
-- [diagramas]()
+- [Aplicaciones similares](#Aplicaciones-similares)
+- [Propósito del proyecto](#Propósito-del-proyecto)
+- [Requisitos](#Requisitos)
+- [Diagramas](#Diagramas)
 
 ## Problemática
 
