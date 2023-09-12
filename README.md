@@ -23,11 +23,7 @@ Texto.
 
 ## Requisitos
 
-Texto.
-
 ### Requisitos funcionales:
-
-Texto.
 
 | **Nombre** | Base de datos de sesión |
 | :--- | :--- |
