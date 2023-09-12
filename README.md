@@ -2,11 +2,11 @@
 
 ## Contenido del proyecto:
 
--[Problemática](#Problemática)
--[Aplicaciones similares]()
--[Propósito del proyecto]()
--[Requisitos]()
--[diagramas]()
+- [Problemática](#Problemática)
+- [Aplicaciones similares]()
+- [Propósito del proyecto]()
+- [Requisitos]()
+- [diagramas]()
 
 ## Problemática
 
@@ -63,7 +63,6 @@ Texto.
 
 #### Apoderado
 
----
 | **Nombre** | Vista de calificaciones |
 | --- | --- |
 | **Tipo** | Requisito |
