@@ -52,18 +52,18 @@ Los requisitos funcionales y no funcionales del proyecto se encuentran detallado
 
 Imagen.
 
-##Mockups
+## Mockups
 
 El proyecto propuesto busca tener una interfaz minimalista, con los mockups se busca diseñar la parte visual del proyecto propuesto. El proyecto es progresivo con la que los mockups es una muestra, guia o expectative de como se vera la ionterfaz.
 
-###Avance del Proyecto
+### Avance del Proyecto
 
 - Login Web/Movil: EL usuario tendra que iniciar sesión para hacer uso de las funciones que ofrece la pagina web, si no tiene cuenta tendra que registrarse.
 
 ![loginWeb](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/c26f91e5-c9d0-4d7b-a71a-53b787978351)
 
 - Registro Web: Aqui el usuario tendra que registrarse si no tiene una cuenta.
-- 
+  
 - Visualizar Notas y Notificaciones: El apoderado/padre/usuario tendra la opcion de ver las notas del estudiante.
 
 ![apoderadoNotas](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/1e6af56e-1487-4605-9eee-12336bfa1575)
@@ -74,6 +74,10 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 
 - Ingreso de notas del Docente: Aqui se muestra la interfaz del ingreso de notas.
 
+![docenteNotas](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/0b904269-c1c4-4f48-87a1-0fbc094b9141)
 
+- Ingreso de asistencia del Docente: El docente podra tomar asistencia a los alumnos presentes en el aula.
 
+![docenteAsistencia](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/8af8328e-1ec2-495a-9b63-ab9b8f39c07c)
 
+  
