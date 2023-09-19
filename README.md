@@ -50,7 +50,7 @@ Los requisitos funcionales y no funcionales del proyecto se encuentran detallado
 
 ### Diagrama de secuencia
 
-![UML-secuencia-docente-notas](Imágenes/Secuencia UML docente.jpg)
+![UML-secuencia-docente-notas]([Imágenes/Secuencia UML docente.jpg](https://github.com/eluqm/CsoftwareGrupo03/blob/main/Im%C3%A1genes/Secuencia%20UML%20docente.jpg)
 
 ![UML-secuencia-docente-asistencia](Imágenes/secuencia UML docente-asistencia .jpg)
 
