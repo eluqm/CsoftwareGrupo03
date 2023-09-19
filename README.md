@@ -52,9 +52,9 @@ Los requisitos funcionales y no funcionales del proyecto se encuentran detallado
 
 ![UML_secuencia_docente_notas](https://github.com/eluqm/CsoftwareGrupo03/blob/main/Im%C3%A1genes/Secuencia%20UML%20docente.jpg)
 
-![UML-secuencia-docente-asistencia](Imágenes/secuencia UML docente-asistencia .jpg)
+![UML_secuencia_docente_asistencia](https://github.com/eluqm/CsoftwareGrupo03/blob/main/Im%C3%A1genes/secuencia%20UML%20docente-asistencia%20.jpg)
 
-![UML-secuencia-apoderado](Imágenes/secuencia UML apoderado.jpg)
+![UML_secuencia_apoderado](https://github.com/eluqm/CsoftwareGrupo03/blob/main/Im%C3%A1genes/secuencia%20UML%20apoderado.jpg)
 
 ## Mockups
 
