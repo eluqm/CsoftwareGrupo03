@@ -51,7 +51,9 @@ Los requisitos funcionales y no funcionales del proyecto se encuentran detallado
 ### Diagrama de secuencia
 
 ![UML-secuencia-docente-notas](Imágenes/Secuencia UML docente.jpg)
+
 ![UML-secuencia-docente-asistencia](Imágenes/secuencia UML docente-asistencia .jpg)
+
 ![UML-secuencia-apoderado](Imágenes/secuencia UML apoderado.jpg)
 
 ## Mockups
