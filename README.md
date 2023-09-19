@@ -60,10 +60,12 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 
 - Login Web/Movil: EL usuario tendra que iniciar sesión para hacer uso de las funciones que ofrece la pagina web, si no tiene cuenta tendra que registrarse.
 
-![loginWeb](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/c26f91e5-c9d0-4d7b-a71a-53b787978351)
+![loginWeb2](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/0559c35c-842e-435a-a738-10ebb8dcd951)
 
-- Registro Web: Aqui el usuario tendra que registrarse si no tiene una cuenta.
-  
+- Recuperar Contraseña: El usuario podra recuperar su contraseña en caso no se acuerde.
+
+![recuperarContraseña](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/405356af-f1eb-466c-9202-5491d1b7c6be)
+
 - Visualizar Notas y Notificaciones: El apoderado/padre/usuario tendra la opcion de ver las notas del estudiante.
 
 ![apoderadoNotas](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/1e6af56e-1487-4605-9eee-12336bfa1575)
@@ -80,4 +82,9 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 
 ![docenteAsistencia](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/8af8328e-1ec2-495a-9b63-ab9b8f39c07c)
 
-  
+- Ingresar Notificacion Docente: El docente podra crear notifaciones que seran visisbles tanto para el como para los apoderados. Estas notificaciones pueden ser una reuniones, fiestas, celebraciones que se realizaran.
+
+
+![notificacion1](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/65c9ca14-856c-4d87-9df4-ebee41d7f6ab)
+
+![notificacion2](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/73f16c31-b79b-4450-8a96-513fbcba8d18)
