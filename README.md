@@ -46,7 +46,7 @@ Los requisitos funcionales y no funcionales del proyecto se encuentran detallado
 
 ### Diagrama casos de uso
 
-![casoUSO](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/40ed2ca6-b687-4df6-b37a-acc66aacb4a3)
+![diagrama3](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/d1e1abed-1fcb-4062-87b1-28e9f47a0162)
 
 ### Diagrama de secuencia
 
