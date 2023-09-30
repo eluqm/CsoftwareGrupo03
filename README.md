@@ -11,7 +11,7 @@
 
 ## Problemática
 
-Actualmente hay estudiantes que por falta de atención del padre/apoderado ya que trabajan, faltan a clases, no rinden bien en sus estudios. Entonces nosotros buscamos resolver la comunicación entre instituciones educativas , primaria o secundaria, y apoderados/padres generado por la falta de comunicación con los estudiantes  eliminando el uso de aplicaciones de terceros que podrían vulnerar el entorno del docente o del padre/apoderado.
+Actualmente hay estudiantes que por falta de atención del padre/apoderado ya que trabajan, faltan a clases, no rinden bien en sus estudios. Entonces nosotros buscamos resolver la comunicación entre instituciones educativas , primaria o secundaria, y apoderados/padres generado por la falta de comunicación con los estudiantes  eliminando el uso de aplicaciones de terceros que podrían vulnerar el entorno del docente o del padre/apoderado. Cambio ejemplo
 
 ## Aplicaciones similares
 
