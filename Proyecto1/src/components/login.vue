@@ -28,7 +28,7 @@
                 <button id="boton" type="submit">
                     Ingresar
                 </button>
-                <a href="#" id="texto"> ¿Olvidaste tu contraseña? </a>
+                <a href="#" id="texto_olvido"> ¿Olvidaste tu contraseña? </a>
             </div>            
             <!-- Fin Formulario -->
 
@@ -37,27 +37,37 @@
 </template>
 
 <style scoped>
+    @import url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
     .contenedor-img-form{
-        border: 5px solid black;
+
         background-color: #F4F4F4;
-        
-        
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 10px 8px 12px #888888;
+        margin: auto;
         width: 509px;
         height: 100vh;
     }   
     #texto_titulo{
+        font-weight: bold;
+        font-size: 30px;
+        font-family: 'Magra', sans-serif;
         color: #0C1340;
         display: flex;
         justify-content: center;
+        
+        
     }
     #texto{
+        font-family: 'Magra', sans-serif;
+        font-weight: bold;
         color: #0C1340;
         margin-top: 10px;
         margin-left: 20px;
         margin-bottom: 20px;
     }
     #logo{
-        width: 509px;
+        border-radius: 20px 20px 20px 20px;
+        width: 100%;
         height: 291px;
     }
     #l_input{
@@ -67,6 +77,8 @@
     }
     #dni,#password{
         margin-left: 20px;
+        border: none;
+        background-color: #D9D9D9;
         width: 423px;
         height: 45px;
     }
@@ -75,6 +87,21 @@
         flex-direction: column;
         align-items: center; /* Centra horizontalmente los elementos */
         justify-content: center; /* Centra verticalmente los elementos */
+        margin-top: 20px;
+    }
+    #boton{
+        background-color: #0C1340;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        width: 148px;
+        height: 65px;
+        
+    }
+    #texto_olvido{
+        font-family: 'Magra', sans-serif;;
+        color: #0C1340;
+        font-weight: bold;
     }
     
 </style>
