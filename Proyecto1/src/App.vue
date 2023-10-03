@@ -1,4 +1,16 @@
-<template>
+<script>
+import login from './components/login.vue'
 
-  <h1>hola mundo</h1>
+export default {
+  components: {
+    login
+  }
+};
+
+</script>
+
+<template>
+  
+  <login />
+
 </template>
