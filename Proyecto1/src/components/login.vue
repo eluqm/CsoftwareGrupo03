@@ -44,12 +44,12 @@
         border-radius: 20px 20px 20px 20px;
         box-shadow: 10px 8px 12px #888888;
         margin: auto;
-        width: 509px;
-        height: 100vh;
+        width: 450px;
+        height: 90vh;
     }   
     #texto_titulo{
         font-weight: bold;
-        font-size: 30px;
+        font-size: 25px;
         font-family: 'Magra', sans-serif;
         color: #0C1340;
         display: flex;
@@ -62,13 +62,13 @@
         font-weight: bold;
         color: #0C1340;
         margin-top: 10px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-bottom: 20px;
     }
     #logo{
         border-radius: 20px 20px 20px 20px;
         width: 100%;
-        height: 291px;
+        height: 300px;
     }
     #l_input{
         
@@ -76,11 +76,11 @@
         flex-direction: column;
     }
     #dni,#password{
-        margin-left: 20px;
+        margin-left: 10px;
         border: none;
         background-color: #D9D9D9;
-        width: 423px;
-        height: 45px;
+        width: 420px;
+        height: 40px;
     }
     .contenedor-i-c{
         display: flex;
@@ -92,10 +92,10 @@
     #boton{
         background-color: #0C1340;
         border-radius: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         color: #FFFFFF;
         width: 148px;
-        height: 65px;
+        height: 60px;
         
     }
     #texto_olvido{
