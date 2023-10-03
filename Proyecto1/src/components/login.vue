@@ -25,7 +25,7 @@
             </div>
 
             <div class="contenedor-i-c">
-                <button id="boton" type="submit">
+                <button href="./apoderadoMenu.vue" id="boton" type="submit">
                     Ingresar
                 </button>
                 <a href="#" id="texto_olvido"> ¿Olvidaste tu contraseña? </a>
