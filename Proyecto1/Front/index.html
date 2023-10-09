@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos/login.css">
     <title>Plataforma Educativa Melgar</title>
 </head>
 <body>
-    
+    <div class="contenedor-img-form">
+        <div >
+            <!-- Agregar el logo aquí -->
+            <img id="logo" src="./Imagenes/logo.png" alt="Logo del Colegio">
+            <h2 id="texto_titulo"> 
+                Institucion Educativa Mariano Melgar
+            </h2>
+        </div>
+        <form action="" class="form_l">
+
+            <!-- Formulario -->
+            <div id="l_input">
+                <label for="dni" id="texto"> 
+                    Usuario:
+                </label>
+                <input type="text" name="" id="dni" required>
+            </div>
+
+            <div id="l_input">
+                <label for="password" id="texto"> 
+                    Contraseña:
+                </label>
+                <input type="password" id="password" required>
+            </div>
+
+            <div class="contenedor-i-c">
+                <button href="./apoderadoMenu.vue" id="boton" type="submit">
+                    Ingresar
+                </button>
+                <a href="#" id="texto_olvido"> ¿Olvidaste tu contraseña? </a>
+            </div>            
+            <!-- Fin Formulario -->
+
+        </form>
+    </div>
 </body>
-</html>l
+</html>
