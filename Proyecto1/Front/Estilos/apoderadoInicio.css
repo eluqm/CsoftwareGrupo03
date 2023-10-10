@@ -1,0 +1,17 @@
+/* Estilos para el div contenedor */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Ancho al 100% del viewport */
+    height: 100vh; /* Altura al 100% del viewport */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+}
+
+/* Estilos para la imagen */
+.imagen {
+    max-width: 500px; /* Ancho máximo de la imagen */
+    max-height: 500px; /* Altura máxima de la imagen */
+    width: 100%; /* Asegura que la imagen no sea más ancha que el div */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción original */
+}
