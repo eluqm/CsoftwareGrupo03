@@ -1,16 +1,15 @@
 *{
     margin:0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
-    .contenedor-img-form{
 
-        background-color: #F4F4F4;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 10px 8px 12px #888888;
-        margin: auto;
-        width: 450px;
-        height: 90vh;
-    }   
+.contenedor-img-form{
+    background-color: #F4F4F4;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 8px 12px #888888;
+    margin: auto;
+    width: 450px;
+    height: 90vh;
+}   
     #texto_titulo{
         font-weight: bold;
         font-size: 25px;
