@@ -1,3 +1,4 @@
+
 /* Estilos para el div contenedor */
 .contenedor {
     margin-top: 80px;
@@ -10,24 +11,18 @@
     line-height: 500px; /* Centrar verticalmente el contenido */
 }
 
-/* Estilos para la imagen */
-.imagen {
-    
-    width: auto;
-    height: 70%; /* La altura se ajusta automáticamente para mantener la proporción original */
-    
-}
-
 /* Estilo para el contenedor div */
 #imageContainer {
-    text-align: center;
+    font-family: 'Magra', sans-serif;
+    margin-top: 100px;
+    background-color: #CDCDCD;
+
 }
 
 /* Estilo para los botones */
-.imageButton {
-    margin: 5px;
+button {
     padding: 10px;
-    background-color: #0074d9;
+    background-color: #0C1340;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -35,7 +30,8 @@
 
 /* Estilo para la imagen */
 #displayedImage {
+    margin-bottom: 100px;
     display: block;
     margin: 0 auto;
-    width: 10%;
+    width: 50%;
 }
