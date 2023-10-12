@@ -80,6 +80,11 @@
 
 }
 
+#boton:hover{
+    background-color: #1d2a7e;
+    transition: transform .24s ease-in-out;
+}
+
 #texto_olvido {
     font-family: 'Magra', sans-serif;
     color: #0C1340;

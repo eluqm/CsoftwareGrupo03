@@ -1,11 +1,14 @@
 <?php
 require 'Conexion.php';
+
 session_start();
 
-$user = $_POST["Dni"];
-$pass = $_POST["Password"];
+require 'datosUsuario.php';
 
-//echo "Bienvenido: ", $user;
+session_start();
+
+//echo "<p> $user </p>";
+//select nombre,apellidopaterno, apellidomaterno from alumno where alumno_dni='12345678';
 
 $query = "SELECT alumno_dni,clave from alumno where alumno_dni='$user' and clave = '$pass'";
 $consulta = pg_query($conexion,$query);
@@ -17,6 +20,4 @@ if($cantidad){
 }else{
     header("location: ../Front/Datos Incorrectos.html");
 }
-
-
 ?>

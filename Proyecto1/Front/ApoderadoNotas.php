@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+require '../Back/ConexionNotas.php';
 
+session_start();
+
+?>
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Estilos/apoderadoInicio.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Magra&display=swap">
+    <link rel="stylesheet" href="./Estilos/apoderadoMostrar.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Plataforma Educativa</title>
@@ -42,24 +46,56 @@
                             Apoderado
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="ApoderadoNotas.php">Mis calificaciones</a></li>
+                            <li><a class="dropdown-item" href="ApoderadoNotas.html">Mis calificaciones</a></li>
                             <li><a class="dropdown-item" href="ApoderadoAsistencia.html">Mis Asistencias</a></li>
                         </ul>
                     </li>
+
                 </ul>
+
             </div>
         </div>
     </nav>
-    <!--Presentacion-->
-    <div id="imageContainer">
-        <button onclick="cambiarImagen('./Imagenes/logro.jpg')">Dia del Logro</button>
-        <button onclick="cambiarImagen('./Imagenes/prese.png')">Dia del Canpesino</button>
-        <button onclick="cambiarImagen('./Imagenes/trabajo.jpg')">Dia del trabajo</button>
-        <br>
-        <img id="displayedImage" src="./Imagenes/padre.jpg" alt="Imagen 1">
-    </div>
+    <!--Tabla-->
+    <form method="POST">
+        <table class="Datitos" border="1">
+            <thead>
+            
+            <tr>
+                <th>Nombre</th>
+                <th>Curso</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>Promedio</th>
+            </tr>
+        </thead>
+            
+            <tbody>
+            <?php 
+            while($obj=pg_fetch_object($consulta)){
+            ?>
+            
+            
+            <tr>
+            <td><?php echo $obj->estudiante;?></td>
+            <td><?php echo $obj->curso;?> </td>
+            <td><?php echo $obj->nota_trimestre_1;?> </td>
+            <td><?php echo $obj->nota_trimestre_2;?> </td>
+            <td><?php echo $obj->nota_trimestre_3;?> </td>
+            <td><?php echo $obj->promedio;?></td>
+            </tr>
+            </tbody>
+            <?php
+        }
+        ?>
+            
+            </table>
+        
+        </form>
 
-    <script src="apoderadoInicio.js"></script>
+    <!--Fin Tabla-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
