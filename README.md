@@ -28,11 +28,8 @@ Nuestro propósito es crear una plataforma web eficiente y fácil de usar con un
 
 - Visualizacion de notas
 - Visualizacion de asistencias
-- Visualizacion de notificaciones/eventos
-
 - Ingreso de notas del estudiante
 - Ingreso de asistencia
-- Ingreso de notificación
 
 ## Requisitos
 
