@@ -33,7 +33,7 @@ Nuestro propósito es crear una plataforma web eficiente y fácil de usar con un
 
 ## Requisitos
 
-Los requisitos funcionales y no funcionales del proyecto se encuentran detallados en el siguiente documento: [Requisitos del proyecto](https://drive.google.com/file/d/1j5xsyA21bkWk6gz__MowmHE6-j_Wsw8z/view?usp=sharing)
+Los requisitos funcionales y no funcionales del proyecto se encuentran detallados en el siguiente documento: [Requisitos del proyecto](https://drive.google.com/file/d/1j5xsyA21bkWk6gz__MowmHE6-j_Wsw8z/view?usp=drive_link)
 
 ## Diagramas
 
