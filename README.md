@@ -39,7 +39,7 @@ Los requisitos funcionales y no funcionales del proyecto se encuentran detallado
 
 ### Diagrama entidad relación
 
-![DER](Imágenes/DER.jpg)
+![DER](https://github.com/eluqm/CsoftwareGrupo03/blob/main/Im%C3%A1genes/DER_3.0.jpg)
 
 ### Diagrama casos de uso
 
