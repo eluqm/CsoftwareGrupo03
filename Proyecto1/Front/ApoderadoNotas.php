@@ -10,6 +10,8 @@ session_start();
 $var = $_SESSION['dni'];
 echo "Valor ",$var;
 
+
+
 $query="SELECT
         a.Nombre ||' '||a.ApellidoPaterno||' '||a.ApellidoMaterno AS Estudiante,
         m.Nombre AS Curso,
