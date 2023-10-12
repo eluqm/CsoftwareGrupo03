@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos/login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Magra&display=swap">
+    <title>Plataforma Educativa Melgar</title>
+</head>
+<body>
+    <div class="contenedor-img-form">
+        <div>
+            <!-- Agregar el logo aquí -->
+            <img id="logo" src="./Imagenes/logo.png" alt="Logo del Colegio">
+            <h2 id="texto_titulo"> 
+                Institucion Educativa Mariano Melgar
+            </h2>
+        </div>
+        <form action="../Back/sesion.php" class="form_l" method="POST">
+
+            <!-- Formulario -->
+            <div id="l_input">
+                <label for="dni" id="texto"> 
+                    Usuario:
+                </label>
+                <input type="text" id="dni" name="Dni" required>
+            </div>
+
+            <div id="l_input">
+                <label for="password" id="texto"> 
+                    Contraseña:
+                </label>
+                <input type="password" id="password" name="Password" required>
+            </div>
+
+            <div class="contenedor-i-c">
+                <button id="boton" type="submit" onclick="validateLogin()">
+                    Ingresar
+                </button>
+                <p id="message"></p>
+                <a href="./olvidar_contraseña.html" id="texto_olvido"> ¿Olvidaste tu contraseña? </a>
+            </div>            
+            <!-- Fin Formulario -->
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
