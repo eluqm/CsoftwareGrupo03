@@ -1,49 +1,34 @@
-<?php
+<?php 
 
 require '../Back/Conexion.php';
 
 session_start();
 
-// Hacer algo con $usuario, como mostrarlo en la pági
+require '../Back/datosUsuario.php';
 
-//echo "Valor ".$_SESSION['dni'];
-$var = $_SESSION['dni'];
-echo "Valor ",$var;
+$_SESSION['dni']=$user;
+//echo "BienvenidoS",$user;
+//select nombre,apellidopaterno, apellidomaterno from alumno where alumno_dni='12345678';
 
-$query="SELECT
-        a.Nombre ||' '||a.ApellidoPaterno||' '||a.ApellidoMaterno AS Estudiante,
-        m.Nombre AS Curso,
-        Nota_trimestre_1.Calificacion as Nota_trimestre_1,
-        Nota_trimestre_2.Calificacion as Nota_trimestre_2,
-        Nota_trimestre_3.Calificacion as Nota_trimestre_3,
-        ROUND(
-            (coalesce (Nota_trimestre_1.Calificacion, 0) + 
-            coalesce (Nota_trimestre_2.Calificacion, 0) + 
-            coalesce (Nota_trimestre_3.Calificacion, 0)) / 3::numeric, 2
-        ) as Promedio
-        from Alumno a
-        join AlumnoMateria am on a.alumno_DNI = am.Alumno_DNI
-        join Materia m on am.Materia_ID = m.materia_ID
-        left join (select Alumno_DNI, Materia_ID, Calificacion from CalificacionTrimestral
-                where Trimestre = 1) as Nota_trimestre_1 
-        on a.alumno_DNI = Nota_trimestre_1.Alumno_DNI and m.materia_ID = Nota_trimestre_1.Materia_ID
-        left join (select Alumno_DNI, Materia_ID, Calificacion from CalificacionTrimestral 
-                where Trimestre = 2) as Nota_trimestre_2
-        on a.alumno_DNI = Nota_trimestre_2.Alumno_DNI and m.materia_ID = Nota_trimestre_2.Materia_ID
-        left join (select Alumno_DNI, Materia_ID, Calificacion from CalificacionTrimestral
-                where Trimestre = 3) as Nota_trimestre_3 
-        on a.alumno_DNI = Nota_trimestre_3.Alumno_DNI and m.materia_ID = Nota_trimestre_3.Materia_ID
-        where a.Alumno_DNI = '$var'";
+$query = "SELECT alumno_dni,clave from alumno where alumno_dni='$user' and clave = '$pass'";
+$consulta = pg_query($conexion,$query);
 
-$consulta=pg_query($conexion,$query);
+$cantidad = pg_num_rows($consulta);
+
+if(!$cantidad){ 
+    //$_SESSION['usuario'] = $user;
+    header("location: ../Front/Datos Incorrectos.html");
+}
 
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Estilos/apoderadoMostrar.css">
+    <link rel="stylesheet" href="./Estilos/apoderadoInicio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Magra&display=swap">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Plataforma Educativa</title>
@@ -81,56 +66,24 @@ $consulta=pg_query($conexion,$query);
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="ApoderadoNotas.php">Mis calificaciones</a></li>
-                            <li><a class="dropdown-item" href="ApoderadoAsistencia.php">Mis Asistencias</a></li>
+                            <li><a class="dropdown-item" href="ApoderadoAsistencia.html">Mis Asistencias</a></li>
                         </ul>
                     </li>
-
                 </ul>
-
             </div>
         </div>
     </nav>
+    <p><?php echo "HOLAAA ",$user ?></p>
+    <!--Presentacion-->
+    <div id="imageContainer">
+        <button onclick="cambiarImagen('./Imagenes/logro.jpg')">Dia del Logro</button>
+        <button onclick="cambiarImagen('./Imagenes/prese.png')">Dia del Canpesino</button>
+        <button onclick="cambiarImagen('./Imagenes/trabajo.jpg')">Dia del trabajo</button>
+        <br>
+        <img id="displayedImage" src="./Imagenes/padre.jpg" alt="Imagen 1">
+    </div>
 
-    <!--Tabla-->
-    <form method="POST">
-        <table class="Datitos" border="1">
-            <thead>
-            
-            <tr>
-                <th>Estudiante</th>
-                <th>Curso</th>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
-                <th>Nota 3</th>
-                <th>Promedio</th>
-            </tr>
-        </thead>
-            
-            <tbody>
-            <?php 
-            while($obj=pg_fetch_object($consulta)){
-            ?>
-            
-            
-            <tr>
-            <td><?php echo $obj->estudiante;?></td>
-            <td><?php echo $obj->curso;?> </td>
-            <td><?php echo $obj->nota_trimestre_1;?> </td>
-            <td><?php echo $obj->nota_trimestre_2;?> </td>
-            <td><?php echo $obj->nota_trimestre_3;?> </td>
-            <td><?php echo $obj->promedio;?></td>
-            </tr>
-            </tbody>
-            <?php
-        }
-        ?>
-            
-            </table>
-        
-        </form>
-
-    <!--Fin Tabla-->
-
+    <script src="apoderadoInicio.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

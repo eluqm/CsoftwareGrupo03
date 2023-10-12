@@ -1,6 +1,7 @@
 <?php
 
-$user = $_POST["Dni"];
-$pass = $_POST["Password"];
+$user = $_POST["Dni"] ?? null;
+$pass = $_POST["Password"] ?? null;
 
+//echo $user;
 ?>
