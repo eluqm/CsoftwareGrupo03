@@ -46,7 +46,7 @@ Los requisitos funcionales y no funcionales del proyecto se encuentran detallado
 
 ### Diagrama casos de uso
 
-![diagrama3](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/d1e1abed-1fcb-4062-87b1-28e9f47a0162)
+![casousov2](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/97f531ed-390d-4cc9-8645-57c55cc9d610)
 
 ### Diagrama de secuencia
 
@@ -66,29 +66,35 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 
 ![loginWeb2](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/0559c35c-842e-435a-a738-10ebb8dcd951)
 
-- Recuperar Contraseña: El usuario podra recuperar su contraseña en caso no se acuerde.
+- Interfaz de Inicio: Pantalla de inicio tanto para Apoderado como para Docente.
+![OpcionesDocente](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/981c17c0-3374-4b85-8596-c64fc1aa0e9d)
 
-![recuperarContraseña](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/405356af-f1eb-466c-9202-5491d1b7c6be)
+- Cambiar Contraseña: El usuario podra recuperar su contraseña en caso no se acuerde.
 
-- Visualizar Notas y Notificaciones: El apoderado/padre/usuario tendra la opcion de ver las notas del estudiante.
+![cambiarContraseña](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/d039b47e-fef4-41dc-b3fb-b24cb75bc5c5)
 
-![apoderadoNotas](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/1e6af56e-1487-4605-9eee-12336bfa1575)
+
+- Visualizar Notas: El apoderado/padre/usuario tendra la opcion de ver las notas del estudiante.
+
+![verNotas](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/5882585c-87d0-4414-b589-348187b04d6f)
+
 
 - Visualizar Asistencia:  El apoderado/padre/usuario tendra la opcion de ver las asistencia del estudiante.
 
-![apoderadorAsistencia](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/87c53119-f396-4cdc-82cd-0ab98f68dc29)
+![verAsistencia](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/370a25fd-3b88-4b5c-a56c-78a5c7d243f5)
+
 
 - Ingreso de notas del Docente: Aqui se muestra la interfaz del ingreso de notas.
 
-![docenteNotas](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/0b904269-c1c4-4f48-87a1-0fbc094b9141)
+![ingresarNotas](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/99361828-c6ea-42ce-8767-93bc7cf22bb2)
+
 
 - Ingreso de asistencia del Docente: El docente podra tomar asistencia a los alumnos presentes en el aula.
 
-![docenteAsistencia](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/8af8328e-1ec2-495a-9b63-ab9b8f39c07c)
-
-- Ingresar Notificacion Docente: El docente podra crear notifaciones que seran visisbles tanto para el como para los apoderados. Estas notificaciones pueden ser una reuniones, fiestas, celebraciones que se realizaran.
+![ingresarAsistencia](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/615b5c00-2d93-4e1c-8942-ccb04d20c41f)
 
 
-![notificacion1](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/65c9ca14-856c-4d87-9df4-ebee41d7f6ab)
 
-![notificacion2](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/73f16c31-b79b-4450-8a96-513fbcba8d18)
+
+
+
