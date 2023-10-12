@@ -12,7 +12,7 @@ function validateLogin() {
 
         if (isAuthenticated) {
             // Redirige al usuario a otra página después de una validación exitosa
-            window.location.href = "./ApoderadoInicio.html";
+            window.location.href = "./ApoderadoInicio.php";
         } else {
             message.textContent = 'Credenciales incorrectas. Por favor, inténtelo de nuevo.';
         }
