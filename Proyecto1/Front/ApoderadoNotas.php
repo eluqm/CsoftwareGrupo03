@@ -94,7 +94,9 @@ $consulta=pg_query($conexion,$query);
         </div>
     </nav>
 
+    <h1 class="titulo-asis"> Tus Calificaciones </h1>
     <!--Tabla-->
+    
     <form class="contenedor-tabla" method="POST">
         <table class="Datitos" border="1">
             <thead>
