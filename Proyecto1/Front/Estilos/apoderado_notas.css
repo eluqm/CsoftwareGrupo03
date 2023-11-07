@@ -1,0 +1,28 @@
+/* Centrado */
+.contenedor-tabla {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 90vh; /* Asegura que ocupe el 100% de la altura de la ventana */
+}
+
+/* Estilos Tabla Notas */
+table.Datitos {
+    font-family: 'Magra', sans-serif;
+    width: 98%;
+    border-collapse: collapse;
+}
+
+table.Datitos, th, td {
+    border: 1px solid #0C1340;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #0C1340;
+    color: #CDCDCD;
+}

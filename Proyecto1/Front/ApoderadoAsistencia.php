@@ -5,7 +5,7 @@ require '../Back/Conexion.php';
 session_start();
 
 $us = $_SESSION['dni'];
-echo "Valor ",$us;
+//echo "Valor ",$us;
 
 $query="SELECT distinct 
         a.Nombre ||' '||a.ApellidoPaterno||' '||a.ApellidoMaterno AS Estudiante,
