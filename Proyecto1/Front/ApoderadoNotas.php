@@ -6,8 +6,7 @@ session_start();
 
 // Hacer algo con $usuario, como mostrarlo en la pági
 
-//echo "Valor ".$_SESSION['dni'];
-$var = $_SESSION['dni'];
+$var = $_SESSION['usuario'];
 //echo "Valor ",$var;
 
 
@@ -48,7 +47,6 @@ $consulta=pg_query($conexion,$query);
     <link rel="stylesheet" href="./Estilos/apoderado_notas.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
     <title>Plataforma Educativa</title>
 </head>
 
@@ -75,10 +73,10 @@ $consulta=pg_query($conexion,$query);
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="ApoderadoInicio.html">Inicio</a>
+                        <a class="nav-link" href="ApoderadoInicio.php">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Apoderado
                         </a>

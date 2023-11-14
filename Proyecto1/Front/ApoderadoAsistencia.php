@@ -4,8 +4,8 @@ require '../Back/Conexion.php';
 
 session_start();
 
-$us = $_SESSION['dni'];
-//echo "Valor ",$us;
+$us = $_SESSION['usuario'];
+//echo "ValorAsis ",$us;
 
 $query="SELECT distinct 
         a.Nombre ||' '||a.ApellidoPaterno||' '||a.ApellidoMaterno AS Estudiante,
@@ -62,7 +62,7 @@ $consulta=pg_query($conexion,$query);
                 <a class="nav-link" href="ApoderadoInicio.php">Inicio</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Apoderado
                 </a>
                 <ul class="dropdown-menu">
