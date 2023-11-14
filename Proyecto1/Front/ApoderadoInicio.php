@@ -1,24 +1,10 @@
-<?php 
-
-require '../Back/Conexion.php';
+<?php
 
 session_start();
 
-require '../Back/datosUsuario.php';
+$dni = $_SESSION['usuario'];
 
-$_SESSION['dni']=$user;
-//echo "BienvenidoS",$user;
-//select nombre,apellidopaterno, apellidomaterno from alumno where alumno_dni='12345678';
-
-$query = "SELECT alumno_dni,clave from alumno where alumno_dni='$user' and clave = '$pass'";
-$consulta = pg_query($conexion,$query);
-
-$cantidad = pg_num_rows($consulta);
-
-if(!$cantidad){ 
-    //$_SESSION['usuario'] = $user;
-    header("location: ../Front/Datos Incorrectos.html");
-}
+echo $dni;
 
 ?>
 <!DOCTYPE html>
@@ -57,23 +43,23 @@ if(!$cantidad){
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="ApoderadoInicio.html">Inicio</a>
+                        <a class="nav-link" href="./ApoderadoInicio.php">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Apoderado
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="ApoderadoNotas.php">Mis calificaciones</a></li>
-                            <li><a class="dropdown-item" href="ApoderadoAsistencia.html">Mis Asistencias</a></li>
+                            <li><a class="dropdown-item" href="ApoderadoAsistencia.php">Mis Asistencias</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <p><?php echo "HOLAAA ",$user ?></p>
+
     <!--Presentacion-->
     <div id="imageContainer">
         <button onclick="cambiarImagen('./Imagenes/logro.jpg')">Dia del Logro</button>
