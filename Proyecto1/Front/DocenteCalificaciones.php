@@ -64,27 +64,62 @@ $dni = $_SESSION['usuario'];
         </div>
     </nav>
     <p>Calificaciones</p>
-    <form method=POST>
-        <label for="grado">Grado:</label>
-        <select id="grado" name="grado">
-            <option value="Primero">Primero</option>
-            <option value="Segundo">Segundo</option>
-            <option value="Tercero">Tercero</option>
-            <option value="Cuarto">Cuarto</option>
-            <option value="Quinto">Quinto</option>
-            <option value="Sexto">Sexto</option>
-        </select>
+    <?php require '../Back/Conexion.php'; ?>
 
-        <label for="seccion">Sección:</label>
+    <label for="nivel">Nivel:</label>
+    <form method="POST" action="">
+        <select id="nivel" name="nivel" onchange="this.form.submit()">
+            <?php
+            $query = pg_query($conexion, 'SELECT nivel_id, nombre FROM nivel');
+            while ($row = pg_fetch_array($query)) {
+                $selected = ($_POST['nivel'] == $row['nivel_id']) ? 'selected' : '';
+                echo "<option value='" . $row['nivel_id'] . "' $selected>" . $row['nombre'] . "</option>";
+            }
+            ?>
+        </select>
+    </form>
+
+    <label for="grado">Grado:</label>
+    <form method="POST" action="">
+        <select id="grado" name="grado" onchange="this.form.submit()">
+            <?php
+            // Obtener el nivel seleccionado (si está definido)
+            $nivelSeleccionado = isset($_POST['nivel']) ? $_POST['nivel'] : null;
+
+            // Si hay un nivel seleccionado, cargar los grados correspondientes
+            if ($nivelSeleccionado !== null) {
+                $queryg = pg_query($conexion, "SELECT grado_id, nombre FROM grado WHERE nivel_id = $nivelSeleccionado");
+                while ($row = pg_fetch_array($queryg)) {
+                    $selected = ($_POST['grado'] == $row['grado_id']) ? 'selected' : '';
+                    echo "<option value='" . $row['grado_id'] . "' $selected>" . $row['nombre'] . "</option>";
+                }
+            }
+            ?>
+        </select>
+    </form>
+
+    <label for="seccion">Sección:</label>
+    <form method="POST" action="">
         <select id="seccion" name="seccion">
-            <option value="A">A</option>
-            <option value="B">B</option>
-            <option value="C">C</option>
-        </select>
+            <?php
+            // Obtener el nivel y grado seleccionados (si están definidos)
+            $nivelSeleccionado = isset($_POST['nivel']) ? $_POST['nivel'] : null;
+            $gradoSeleccionado = isset($_POST['grado']) ? $_POST['grado'] : null;
 
-        <label for="curso">Curso:</label>
-        <select id="curso" name="curso">
-            <option value="Matemática">Matemática</option>
+            // Si hay un nivel y grado seleccionados, cargar las secciones correspondientes
+            if ($nivelSeleccionado !== null && $gradoSeleccionado !== null) {
+                $querys = pg_query($conexion, "SELECT s.seccion_id, s.nombre
+                                                from seccion s 
+                                                join grado g on s.grado_id = g.grado_id 
+                                                join nivel n on g.nivel_id = n.nivel_id
+                                                where n.nivel_id = $nivelSeleccionado and g.grado_id = $gradoSeleccionado");
+
+                while ($row = pg_fetch_array($querys)) {
+                    $selected = ($_POST['seccion'] == $row['seccion_id']) ? 'selected' : '';
+                    echo "<option value='" . $row['seccion_id'] . "' $selected>" . $row['nombre'] . "</option>";
+                }
+            }
+            ?>
         </select>
     </form>
 
