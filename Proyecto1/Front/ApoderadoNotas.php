@@ -110,24 +110,21 @@ $consulta=pg_query($conexion,$query);
         </thead>
             
             <tbody>
-            <?php 
-            while($obj=pg_fetch_object($consulta)){
-            ?>
-            
-            
-            <tr>
-            <td><?php echo $obj->estudiante;?></td>
-            <td><?php echo $obj->curso;?> </td>
-            <td><?php echo $obj->nota_trimestre_1;?> </td>
-            <td><?php echo $obj->nota_trimestre_2;?> </td>
-            <td><?php echo $obj->nota_trimestre_3;?> </td>
-            <td><?php echo $obj->promedio;?></td>
-            </tr>
+                <?php 
+                while($obj=pg_fetch_object($consulta)){
+                ?>
+                <tr>
+                <td><?php echo $obj->estudiante;?></td>
+                <td><?php echo $obj->curso;?> </td>
+                <td><?php echo $obj->nota_trimestre_1;?> </td>
+                <td><?php echo $obj->nota_trimestre_2;?> </td>
+                <td><?php echo $obj->nota_trimestre_3;?> </td>
+                <td><?php echo $obj->promedio;?></td>
+                </tr> 
+                <?php
+                }
+                ?>
             </tbody>
-            <?php
-        }
-        ?>
-            
             </table>
         
         </form>
