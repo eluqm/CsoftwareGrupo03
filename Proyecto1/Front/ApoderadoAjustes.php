@@ -61,7 +61,7 @@
             <label for="input1">Vuelva a ingresar la contraseña</label>
             <input type="text" id="contraseña" name="contraseña" placeholder="Contraseña">
 
-            <button href="#" id="boton" type="submit">Enviar</button>
+            <button id="boton" type="submit">Enviar</button>
         </form>
     </div>
 
