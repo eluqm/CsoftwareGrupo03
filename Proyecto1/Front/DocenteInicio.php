@@ -51,8 +51,8 @@ echo $dni;
                             Apoderado
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Ingresar Calificaciones</a></li>
-                            <li><a class="dropdown-item" href="#">Ingresar Asistencias</a></li>
+                            <li><a class="dropdown-item" href="DocenteCalificaciones.php">Ingresar Calificaciones</a></li>
+                            <li><a class="dropdown-item" href="DocenteAsistencias.php">Ingresar Asistencias</a></li>
                         </ul>
                     </li>
                 </ul>
