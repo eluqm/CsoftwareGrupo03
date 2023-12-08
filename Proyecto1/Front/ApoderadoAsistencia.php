@@ -10,9 +10,9 @@ $us = $_SESSION['usuario'];
 $query="SELECT distinct 
         a.Nombre ||' '||a.ApellidoPaterno||' '||a.ApellidoMaterno AS Estudiante,
           m.Nombre AS Curso,
-          Dia_Lunes.Asistio as Lunes,
-          Dia_Martes.Asistio as Martes,
-          Dia_Miercoles.Asistio as Miercoles
+          CASE WHEN Dia_Lunes.Asistio THEN 'P' ELSE 'F' END AS Lunes,
+          CASE WHEN Dia_Martes.Asistio THEN 'P' ELSE 'F' END AS Martes,
+          CASE WHEN Dia_Miercoles.Asistio THEN 'P' ELSE 'F' END AS Miercoles
         from Alumno a
         join Asistencia ast on a.alumno_DNI = ast.Alumno_DNI
         join Materia m on ast.Materia_ID = m.materia_ID
