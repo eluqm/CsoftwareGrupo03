@@ -1,20 +1,10 @@
-<?php
-
-session_start();
-
-$dni = $_SESSION['usuario'];
-
-echo $dni;
-
-?>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Estilos/apoderadoInicio.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Magra&display=swap">
+    <link rel="stylesheet" href="./Estilos/ApoderadoAjustes.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Plataforma Educativa</title>
@@ -34,7 +24,7 @@ echo $dni;
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="DocenteAjustes.php">
+                        <a class="nav-link active" aria-current="page" href="ApoderadoAjustes.html">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                                 class="bi bi-nut-fill" viewBox="0 0 16 16">
                                 <path
@@ -43,7 +33,7 @@ echo $dni;
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./ApoderadoInicio.php">Inicio</a>
+                        <a class="nav-link" href="ApoderadoInicio.php">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
@@ -51,25 +41,33 @@ echo $dni;
                             Apoderado
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="DocenteCalificaciones.php">Ingresar Calificaciones</a></li>
-                            <li><a class="dropdown-item" href="DocenteAsistencias.php">Ingresar Asistencias</a></li>
+                            <li><a class="dropdown-item" href="ApoderadoNotas.php">Mis calificaciones</a></li>
+                            <li><a class="dropdown-item" href="ApoderadoAsistencia.php">Mis Asistencias</a></li>
                         </ul>
                     </li>
+
                 </ul>
+
             </div>
         </div>
     </nav>
 
-    <!--Presentacion-->
-    <div id="imageContainer">
-        <button onclick="cambiarImagen('./Imagenes/logro.jpg')">Dia del Logro</button>
-        <button onclick="cambiarImagen('./Imagenes/prese.png')">Dia del Canpesino</button>
-        <button onclick="cambiarImagen('./Imagenes/trabajo.jpg')">Dia del trabajo</button>
-        <br>
-        <img id="displayedImage" src="./Imagenes/padre.jpg" alt="Imagen 1">
+    <div class="container">
+        <h2 id="titulo_div">Cambiar Contraseña</h2>
+        <form action="cambiarContraseña.php" method="POST">
+            <label for="input1">Ingrese nueva contraseña</label>
+            <input type="text" id="input1" name="input1" placeholder="Contraseña">
+
+            <label for="input1">Vuelva a ingresar la contraseña</label>
+            <input type="text" id="contraseña" name="contraseña" placeholder="Contraseña">
+
+            <button href="#" id="boton" type="submit">Enviar</button>
+        </form>
     </div>
 
-    <script src="apoderadoInicio.js"></script>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

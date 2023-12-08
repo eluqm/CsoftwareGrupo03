@@ -1,10 +1,14 @@
 <?php
 
+require '../Back/Conexion.php';
+
 session_start();
 
 $dni = $_SESSION['usuario'];
 
 echo $dni;
+
+//Consulta query
 
 ?>
 <!DOCTYPE html>
@@ -34,7 +38,7 @@ echo $dni;
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="DocenteAjustes.php">
+                        <a class="nav-link active" aria-current="page" href="ApoderadoAjustes.html">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                                 class="bi bi-nut-fill" viewBox="0 0 16 16">
                                 <path
@@ -51,7 +55,7 @@ echo $dni;
                             Apoderado
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="DocenteCalificaciones.php">Ingresar Calificaciones</a></li>
+                            <li><a class="dropdown-item" href="DocenteCalificaciones.php">Ingresar calificaciones</a></li>
                             <li><a class="dropdown-item" href="DocenteAsistencias.php">Ingresar Asistencias</a></li>
                         </ul>
                     </li>
@@ -59,20 +63,38 @@ echo $dni;
             </div>
         </div>
     </nav>
+    <form method=POST>
+        <label for="grado">Grado:</label>
+        <select id="grado" name="grado">
+            <option value="Primero">Primero</option>
+            <option value="Segundo">Segundo</option>
+            <option value="Tercero">Tercero</option>
+            <option value="Cuarto">Cuarto</option>
+            <option value="Quinto">Quinto</option>
+            <option value="Sexto">Sexto</option>
+        </select>
 
-    <!--Presentacion-->
-    <div id="imageContainer">
-        <button onclick="cambiarImagen('./Imagenes/logro.jpg')">Dia del Logro</button>
-        <button onclick="cambiarImagen('./Imagenes/prese.png')">Dia del Canpesino</button>
-        <button onclick="cambiarImagen('./Imagenes/trabajo.jpg')">Dia del trabajo</button>
-        <br>
-        <img id="displayedImage" src="./Imagenes/padre.jpg" alt="Imagen 1">
-    </div>
+        <label for="seccion">Sección:</label>
+        <select id="seccion" name="seccion">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
 
-    <script src="apoderadoInicio.js"></script>
+        <label for="curso">Curso:</label>
+        <select id="curso" name="curso">
+            <option value="Matemática">Matemática</option>
+        </select>
+    </form>
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
