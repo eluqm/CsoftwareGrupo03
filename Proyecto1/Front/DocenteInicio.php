@@ -4,7 +4,7 @@ session_start();
 
 $dni = $_SESSION['usuario'];
 
-echo $dni;
+//echo $dni;
 
 ?>
 <!DOCTYPE html>
@@ -48,7 +48,7 @@ echo $dni;
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Apoderado
+                            Docente
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="DocenteCalificaciones.php">Ingresar Calificaciones</a></li>

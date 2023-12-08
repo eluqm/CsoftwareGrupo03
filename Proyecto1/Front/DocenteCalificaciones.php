@@ -6,7 +6,7 @@ session_start();
 
 $dni = $_SESSION['usuario'];
 
-echo $dni;
+//echo $dni;
 
 //Consulta query
 
@@ -38,7 +38,7 @@ echo $dni;
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="ApoderadoAjustes.html">
+                        <a class="nav-link active" aria-current="page" href="DocenteAjustes.php">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                                 class="bi bi-nut-fill" viewBox="0 0 16 16">
                                 <path
@@ -52,7 +52,7 @@ echo $dni;
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Apoderado
+                            Docente
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="DocenteCalificaciones.php">Ingresar calificaciones</a></li>
@@ -63,6 +63,7 @@ echo $dni;
             </div>
         </div>
     </nav>
+    <p>Calificaciones</p>
     <form method=POST>
         <label for="grado">Grado:</label>
         <select id="grado" name="grado">

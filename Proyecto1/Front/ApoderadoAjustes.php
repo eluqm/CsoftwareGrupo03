@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="ApoderadoAjustes.html">
+                        <a class="nav-link active" aria-current="page" href="ApoderadoAjustes.php">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                                 class="bi bi-nut-fill" viewBox="0 0 16 16">
                                 <path

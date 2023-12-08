@@ -4,7 +4,7 @@ session_start();
 
 $dni = $_SESSION['usuario'];
 
-echo $dni;
+//echo $dni;
 
 ?>
 <!DOCTYPE html>

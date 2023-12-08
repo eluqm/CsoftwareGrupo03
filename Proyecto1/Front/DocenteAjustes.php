@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="ApoderadoAjustes.html">
+                        <a class="nav-link active" aria-current="page" href="DocenteAjustes.php">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                                 class="bi bi-nut-fill" viewBox="0 0 16 16">
                                 <path
@@ -38,11 +38,11 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Apoderado
+                            Docente
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="ApoderadoNotas.php">Mis calificaciones</a></li>
-                            <li><a class="dropdown-item" href="ApoderadoAsistencia.php">Mis Asistencias</a></li>
+                            <li><a class="dropdown-item" href="DocenteCalificaciones.php">Ingresar calificaciones</a></li>
+                            <li><a class="dropdown-item" href="DocenteAsistencias.php">Ingresar Asistencias</a></li>
                         </ul>
                     </li>
 
@@ -54,7 +54,7 @@
 
     <div class="container">
         <h2 id="titulo_div">Cambiar Contraseña</h2>
-        <form action="cambiarContraseña.php" method="POST">
+        <form action="DocenteCambiarContraseña.php" method="POST">
             <label for="input1">Ingrese nueva contraseña</label>
             <input type="text" id="input1" name="input1" placeholder="Contraseña">
 
