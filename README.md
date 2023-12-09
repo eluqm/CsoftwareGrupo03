@@ -106,7 +106,7 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 ## Diseño de casos de prueba
 
 | **Casos de prueba** |
-| --------- |
+| :------------------: |
 | **Nombre del proyecto:** Plataforma Educativa |
 
 | **ID** | **Módulo** | **Descripción** | **Guía** | **Resultado Esperado** | **Resultado de Test** |
