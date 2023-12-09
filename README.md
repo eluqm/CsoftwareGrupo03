@@ -8,6 +8,8 @@
 - [Propósito del proyecto](#Propósito-del-proyecto)
 - [Requisitos](#Requisitos)
 - [Diagramas](#Diagramas)
+- [Planificación](#Planificación)
+- [Diseño de casos de prueba](#Diseño-de-casos-de-prueba)
 
 ## Problemática
 
@@ -79,7 +81,11 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 
 ![image](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/d28efab1-5f18-497b-b503-70d7513368f8)
 
+## Planificación
 
+addsad
+
+## Diseño de casos de prueba
 
 
 
