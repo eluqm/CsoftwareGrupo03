@@ -64,7 +64,7 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 ![image](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/2b58543d-8ed8-4da7-b288-022d56cbf583)
 
 - Interfaz de Inicio: Pantalla de inicio tanto para Apoderado como para Docente.
-- 
+  
 ![image](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/14ba8570-3faf-4609-b0b0-18af4777c32e)
 
 - Cambiar Contraseña: El usuario podra recuperar su contraseña en caso no se acuerde.
