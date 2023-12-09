@@ -70,7 +70,6 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 
 ![cambiarContraseña](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/d039b47e-fef4-41dc-b3fb-b24cb75bc5c5)
 
-
 - Visualizar Notas: El apoderado/padre/usuario tendra la opcion de ver las notas del estudiante.
 
 ![verNotas](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/5882585c-87d0-4414-b589-348187b04d6f)
@@ -79,16 +78,6 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 - Visualizar Asistencia:  El apoderado/padre/usuario tendra la opcion de ver las asistencia del estudiante.
 
 ![verAsistencia](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/370a25fd-3b88-4b5c-a56c-78a5c7d243f5)
-
-
-- Ingreso de notas del Docente: Aqui se muestra la interfaz del ingreso de notas.
-
-![ingresarNotas](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/99361828-c6ea-42ce-8767-93bc7cf22bb2)
-
-
-- Ingreso de asistencia del Docente: El docente podra tomar asistencia a los alumnos presentes en el aula.
-
-![ingresarAsistencia](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/615b5c00-2d93-4e1c-8942-ccb04d20c41f)
 
 
 
