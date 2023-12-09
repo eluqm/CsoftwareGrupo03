@@ -61,23 +61,23 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 
 - Login Web/Movil: EL usuario tendra que iniciar sesión para hacer uso de las funciones que ofrece la pagina web, si no tiene cuenta tendra que registrarse.
 
-![loginWeb2](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/0559c35c-842e-435a-a738-10ebb8dcd951)
+![image](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/2b58543d-8ed8-4da7-b288-022d56cbf583)
 
 - Interfaz de Inicio: Pantalla de inicio tanto para Apoderado como para Docente.
-![OpcionesDocente](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/981c17c0-3374-4b85-8596-c64fc1aa0e9d)
+- 
+![image](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/14ba8570-3faf-4609-b0b0-18af4777c32e)
 
 - Cambiar Contraseña: El usuario podra recuperar su contraseña en caso no se acuerde.
 
-![cambiarContraseña](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/d039b47e-fef4-41dc-b3fb-b24cb75bc5c5)
+![image](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/66b40a1a-86c9-4358-a2ec-b881c701f26d)
 
 - Visualizar Notas: El apoderado/padre/usuario tendra la opcion de ver las notas del estudiante.
 
-![verNotas](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/5882585c-87d0-4414-b589-348187b04d6f)
-
+![image](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/055520e6-cf95-4243-a4b0-4f03922ecafa)
 
 - Visualizar Asistencia:  El apoderado/padre/usuario tendra la opcion de ver las asistencia del estudiante.
 
-![verAsistencia](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/370a25fd-3b88-4b5c-a56c-78a5c7d243f5)
+![image](https://github.com/eluqm/CsoftwareGrupo03/assets/103951817/d28efab1-5f18-497b-b503-70d7513368f8)
 
 
 
