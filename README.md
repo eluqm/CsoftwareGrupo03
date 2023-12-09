@@ -83,7 +83,17 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 
 ## Planificación
 
-addsad
+| **Plan de pruebas** |
+| **Nombre del Proyecto:** |
+| **Involucrados/Responsabilidades** |
+| **Funcionalidades o Módulos** |
+| **Equipamientos/Software** |
+| **Cronograma** |
+| **Fecha de inicio y Fin del Proyecto:** |
+| **Fecha de inicio y Fin de Prueba: ** |
+| **Lugar de Prueba** |
+| **Criterios para considerar finalizada la prueba** |
+| **Observaciones** |
 
 ## Diseño de casos de prueba
 
