@@ -84,19 +84,34 @@ El proyecto propuesto busca tener una interfaz minimalista, con los mockups se b
 ## Planificación
 
 | **Plan de pruebas** |
-| **Nombre del Proyecto:** |
+| -- |
+| **Nombre del Proyecto:** Plataforma Educativa |
 | **Involucrados/Responsabilidades** |
+| Apoderado Creación de casos de prueba con sus funcionalidades respectiva. |
+| Docente Creación de casos de prueba con sus funcionalidad respectiva. |
 | **Funcionalidades o Módulos** |
+| Ver Calificaciones del Estudiante, Ver Asistencias del Estudiante, Cambiar contraseña |
 | **Equipamientos/Software** |
+| El sistema debe funcionar en un servidor Web incluido la base de datos, la pagina responsiva para desktop y para dispositivos móviles. |
 | **Cronograma** |
-| **Fecha de inicio y Fin del Proyecto:** |
-| **Fecha de inicio y Fin de Prueba: ** |
+| **Fecha de inicio y Fin del Proyecto:** 11/sep/2023 - 21/nov/2023 |
+| **Fecha de inicio y Fin de Prueba:** 1/dic/2023 - 8/dic/2023 |
 | **Lugar de Prueba** |
+| El sistema debe ser ejecutado en dos máquinas para probar la validación y el servidor. |
 | **Criterios para considerar finalizada la prueba** |
+| La prueba se considerará finalizada cuando todas las funciones estén terminadas, esté operativa y que los datos se almacenen correctamente en la base de datos. Luego hacer los casos de prueba. |
 | **Observaciones** |
-
+| Puede generar problemas en la parte de funcionalidades de Docente, en el envío de datos para generar los alumnos correspondientes de dicha sección. |
+---
 ## Diseño de casos de prueba
 
+| **Casos de prueba** |
+| --------- |
+| **Nombre del proyecto:** Plataforma Educativa |
 
-
-
+| **ID** | **Módulo** | **Descripción** | **Guía** | **Resultado Esperado** | **Resultado de Test** |
+| --- | --- | --- | --- | --------- | --------- |
+| 1 | Apoderado Notas | Este módulo nos permite visualizar nuestras notas de dicho curso. | 1. Hacer click en la opción "Ver calificaciones". 2. Mostrar notas de cursos. | Apoderado 8/dic/2023: Un cuadro apareció con las notas de dicho curso | Apoderado 8/dic/2023: Un cuadro apareció con las notas de dicho curso |
+| 2 | Apoderado Asistencias | Este módulo nos permite visualizar nuestras notas | 1. Hacer click en opción “Ver asistencias”2. Mostrar asistencias respectivos cursos y días(l,m,m). | Apoderado 8/dic/2023 Un cuadro con las asistencias de del estudiante se muestra | Apoderado 8/dic/2023 Un cuadro con las asistencias de del estudiante apareció |
+| 3 | Cambiar Contraseña | Este módulo nos permitirá el cambio de contraseña | 1. Hacer click en la opción ”Tuerca”.2. Ingresar contraseña(dato) | Apoderado Docente 8/dic/2023 Enviar los datos de contraseña lo redirige a Inicio | Apoderado Docente 8/dic/2023 Enviar el dato nueva contraseña lo redirigió exitosamente a Inicio. |
+---
